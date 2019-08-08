@@ -4,5 +4,7 @@
 // single responsibility principle (SRP)
 const api = require('./api/server');
 
-const port = 7000;
+// heroku adds a PORT variable to the environment automatically
+// every environment variable in node will be in the process.env object;
+const port = process.env.PORT || 7000;
 api.listen(port, () => console.log(`\n**server running on port ${port}**\n`))
