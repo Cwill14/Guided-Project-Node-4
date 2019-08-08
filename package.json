@@ -1,0 +1,26 @@
+{
+  "name": "Guided-Project-Node-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cwill14/Guided-Project-Node-4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cwill14/Guided-Project-Node-4/issues"
+  },
+  "homepage": "https://github.com/Cwill14/Guided-Project-Node-4#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
